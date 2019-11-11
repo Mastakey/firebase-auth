@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+  }
+  .container {
+    margin: 40px auto 0 auto;
+    max-width: 1200px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .ql-editor{
+    min-height:200px;
+  }
+  
+  pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .nav-container {
+      min-width: 1200px;
+      margin: auto;
+    }
+  }
